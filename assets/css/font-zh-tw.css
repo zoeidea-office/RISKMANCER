@@ -1,0 +1,176 @@
+:root {
+  /* H1 */
+  --h1-lg-size: 48px;
+  --h1-md-size: 40px;
+  --h1-sm-size: 32px;
+
+  --h1-lg-lh: 1.32;
+  --h1-md-lh: 1.32;
+  --h1-sm-lh: 1.4;
+
+  /* H2 */
+  --h2-lg-size: 32px;
+  --h2-md-size: 32px;
+  --h2-sm-size: 24px;
+
+  --h2-lg-lh: 1.4;
+  --h2-md-lh: 1.4;
+  --h2-sm-lh: 1.5;
+
+  /* H3 */
+  --h3-lg-size: 28px;
+  --h3-md-size: 28px;
+  --h3-sm-size: 20px;
+
+  --h3-lg-lh: 1.5;
+  --h3-md-lh: 1.5;
+  --h3-sm-lh: 1.6;
+
+  /* H4 */
+  --h4-lg-size: 20px;
+  --h4-md-size: 20px;
+  --h4-sm-size: 18px;
+
+  --h4-lg-lh: 1.64;
+  --h4-md-lh: 1.64;
+  --h4-sm-lh: 1.68;
+
+  /* H5 */
+  --h5-lg-size: 18px;
+  --h5-md-size: 18px;
+  --h5-sm-size: 16px;
+
+  --h5-lg-lh: 1.68;
+  --h5-md-lh: 1.68;
+  --h5-sm-lh: 1.74;
+
+  /* Body1 */
+  --body1-size: 18px;
+  --body1-lh: 1.68;
+
+  /* Body2 */
+  --body2-size: 16px;
+  --body2-lh: 1.74;
+
+  /* Body3 */
+  --body3-size: 14px;
+  --body3-lh: 1.7;
+
+  /* Caption */
+  --caption-size: 12px;
+  --caption-lh: 1.7;
+
+}
+/* H1 */
+h1,.h1 {
+  font-size: var(--h1-sm-size)!important;
+  line-height: var(--h1-sm-lh)!important;
+}
+@media (min-width: 1024px) {
+  h1, .h1 {
+    font-size: var(--h1-md-size)!important;
+    line-height: var(--h1-md-lh)!important;
+  }
+}
+@media (min-width: 1280px) {
+  h1, .h1 {
+    font-size: var(--h1-lg-size)!important;
+    line-height: var(--h1-lg-lh)!important;
+  }
+}
+
+/* H2 */
+h2, .h2 {
+  font-size: var(--h2-sm-size)!important;
+  line-height: var(--h2-sm-lh)!important;
+}
+@media (min-width: 1024px) {
+  h2, .h2 {
+    font-size: var(--h2-md-size)!important;
+    line-height: var(--h2-md-lh)!important;
+  }
+}
+@media (min-width: 1280px) {
+  h2, .h2 {
+    font-size: var(--h2-lg-size)!important;
+    line-height: var(--h2-lg-lh)!important;
+  }
+}
+
+/* H3 */
+h3, .h3 {
+  font-size: var(--h3-sm-size)!important;
+  line-height: var(--h3-sm-lh)!important;
+}
+@media (min-width: 1024px) {
+  h3, .h3 {
+    font-size: var(--h3-md-size)!important;
+    line-height: var(--h3-md-lh)!important;
+  }
+}
+@media (min-width: 1280px) {
+  h3, .h3 {
+    font-size: var(--h3-lg-size)!important;
+    line-height: var(--h3-lg-lh)!important;
+  }
+}
+
+/* H4 */
+h4, .h4 {
+  font-size: var(--h4-sm-size)!important;
+  line-height: var(--h4-sm-lh)!important;
+}
+@media (min-width: 1024px) {
+  h4, .h4 {
+    font-size: var(--h4-md-size)!important;
+    line-height: var(--h4-md-lh)!important;
+  }
+}
+@media (min-width: 1280px) {
+  h4, .h4 {
+    font-size: var(--h4-lg-size)!important;
+    line-height: var(--h4-lg-lh)!important;
+  }
+}
+
+/* H5 */
+h5, .h5 {
+  font-size: var(--h5-sm-size)!important;
+  line-height: var(--h5-sm-lh)!important;
+}
+@media (min-width: 1024px) {
+  h5, .h5 {
+    font-size: var(--h5-md-size)!important;
+    line-height: var(--h5-md-lh)!important;
+  }
+}
+@media (min-width: 1280px) {
+  h5, .h5 {
+    font-size: var(--h5-lg-size)!important;
+    line-height: var(--h5-lg-lh)!important;
+  }
+}
+
+/* Body1 */
+.body1 {
+  font-size: var(--body1-size);
+  line-height: var(--body1-lh);
+}
+
+/* Body2 */
+.body2 {
+  font-size: var(--body2-size);
+  line-height: var(--body2-lh);
+}
+
+/* Body3 */
+.body3 {
+  font-size: var(--body3-size);
+  line-height: var(--body3-lh);
+}
+
+/* Caption */
+.caption {
+  font-size: var(--caption-size);
+  line-height: var(--caption-lh);
+}
