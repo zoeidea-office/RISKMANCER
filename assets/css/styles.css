@@ -19868,6 +19868,27 @@ ul {
   }
 }
 
+@media (max-width: 767.98px) {
+  .banner-row {
+    flex-direction: column;
+  }
+
+  .banner-row > .d-flex {
+    order: 2;
+  }
+
+  .banner-row > .col-xl-4 {
+    order: 1;
+    padding-bottom: 32px;
+  }
+}
+
+@media (max-width: 420px) {
+  .banner-section h3.font-roboto {
+    font-size: 1.12rem !important;
+    line-height: 1.4;
+  }
+}
 
 .get-in-touch {
   padding: 24px;
